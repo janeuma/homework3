@@ -1,0 +1,107 @@
+/* Collaborated with Natalie Gross */
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    background-image: url("../images/pidgeon-background.jpg");
+    background-repeat: no-repeat;
+    background-color: #dddd;
+    padding: 20px;
+}
+
+a{
+    color: #c12258;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+h1{
+    font-size: 2em;
+    line-height: 1.5;
+    color: #c12258;
+}
+
+table{
+    border-collapse: separate;
+    border: 2px solid black;
+    border-spacing: 0;
+    border-radius: 10px;
+}
+
+.colhead{
+    min-width: 150px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: #7e0830;
+    text-transform: uppercase;
+}
+
+:focus{
+    border: 1px solid red;
+}
+
+tr, td, .rowhead{
+    border-top: 2px solid black;
+}
+
+
+tbody tr:nth-child(even){
+    background-color: #dddddd;
+    text-align: center;
+    padding: 15px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: transparent;
+    text-align: center;
+    padding: 15px;
+}
+
+tbody:last-child th.rowhead{
+    border-bottom-left-radius: 10px;
+}
+
+tbody tr td{
+    text-align: center;
+    padding: 15px;
+}
+
+tbody tr:hover{
+    background-color: #fab9cf;
+}
+
+table thead tr:first-child th:first-child{
+    border-top-left-radius: 10px;
+}
+
+table tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child{
+    border-bottom-right-radius: 10px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    min-height: 60px;
+    position: fixed;
+    margin:0 auto;
+    height:auto;
+    width:100%;
+    bottom: 0;
+    text-align: center;
+}
+
+ 
